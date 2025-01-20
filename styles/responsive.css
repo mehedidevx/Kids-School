@@ -1,0 +1,32 @@
+@media screen and (max-width:576px) {
+    /* Navbar Start */
+    .nav-logo h3{
+        display: none;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .menu-btn{
+        display: none;
+    }
+    .nav{
+        border-bottom:0.5px solid rgb(254, 163, 1);
+        padding: 16px;
+    }
+    .menu-icon{
+        display: block;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    /* Navbar End */
+    /* banner section start */
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .banner-img img{
+        width: 100%;
+      }
+}
