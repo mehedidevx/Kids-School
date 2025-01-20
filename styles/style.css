@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+/* Shared Style Start*/
+.container {
+  max-width: 1170px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+  border: 1px solid red;
+}
+.btn-primary {
+  background: rgb(254, 163, 1);
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 10px 30px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Shared Style End */
+/* Header Start */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.nav-menu li {
+  list-style: none;
+}
+#home {
+  color: rgb(254, 163, 1);
+}
+#about {
+  color: rgb(1, 172, 253);
+}
+#facilities {
+  color: rgb(5, 212, 223);
+}
+#admission {
+  color: rgb(93, 88, 239);
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav-logo {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+.nav-logo h3 {
+  font-size: 32px;
+}
