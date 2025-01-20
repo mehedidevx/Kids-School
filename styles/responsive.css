@@ -56,4 +56,15 @@
         font-size: 9.13px;
         margin-left: 18px;
       }
+      footer {
+        background: rgb(1, 172, 253);
+        padding: 5px;
+      }
+      .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+      }
 }

@@ -213,6 +213,7 @@
     "c1 c1 c2 c3"
     "c1 c1 c4 c5";
   gap: 19px;
+  padding: 60px 0px;
 }
 .story-title {
   font-size: 46px;
@@ -240,18 +241,16 @@
   font-size: 15px;
   font-weight: 700;
   line-height: 27.35px;
-  
+
   padding: 3px 18px 13px;
 }
-.stories-card p{
+.stories-card p {
   font-size: 15.34px;
-font-weight: 500;
-margin-top: 50px;
-padding: 10px 18px;
-line-height: 28px;
+  font-weight: 500;
+  margin-top: 50px;
+  padding: 10px 18px;
+  line-height: 28px;
 }
-
-
 
 .c1 {
   grid-area: c1;
@@ -280,7 +279,7 @@ line-height: 28px;
 }
 #stbtn2 {
   border-radius: 47.93px;
-  background: rgb(149, 178, 38);;
+  background: rgb(149, 178, 38);
   margin-left: 30px;
   margin-top: -100px;
   font-size: 15.34px;
@@ -317,4 +316,54 @@ line-height: 28px;
   font-weight: 500;
   position: relative;
   top: -15px;
+}
+.vBtn {
+  text-align: center;
+  margin-bottom: 60px;
+}
+/* footer section */
+footer {
+  background: rgb(1, 172, 253);
+  padding: 50px;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+.footer-logo h3 {
+  font-size: 42.14px;
+  font-weight: 700;
+  line-height: 39.51px;
+}
+.footer-logo p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+.footer-about h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+.footer-about li {
+  list-style: none;
+  margin-bottom: 18px;
+}
+.footer-touch h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+.footer-icon{
+  display: flex;
+  gap: 10px;
 }
