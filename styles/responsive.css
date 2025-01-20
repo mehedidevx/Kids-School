@@ -24,7 +24,7 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        
+        padding: 3px;
         justify-content: center;
       }
       .banner-img img{
@@ -37,6 +37,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 29px;
+        padding: 5px;
       }
       .slide-btn{
         display: none;

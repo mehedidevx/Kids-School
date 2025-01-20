@@ -367,3 +367,12 @@ footer {
   display: flex;
   gap: 10px;
 }
+.homepage-container {
+  text-align: center;
+}
+.notice {
+  color: #ffffff;
+  background-color:rgb(100, 71, 3);
+  padding: 10px;
+  margin: 20px 0;
+}
