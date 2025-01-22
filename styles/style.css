@@ -30,7 +30,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 5px;
+  padding: 30px 5px;
 }
 .menu-icon {
   display: none;
@@ -251,7 +251,9 @@
   padding: 10px 18px;
   line-height: 28px;
 }
-
+#our-story{
+  margin-bottom: 0;
+}
 .c1 {
   grid-area: c1;
 }
